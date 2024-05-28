@@ -1,0 +1,49 @@
+/**
+ * @name doody booty
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://m.media-amazon.com/images/S/pv-target-images/c88fcf24b00c2e720e077aed266e4cacf5169cdaf7bde50c6089f4f083a79a67.jpg');
+  --background-image-blur: 0px;
+  --background-image-size: 100%;
+  --background-image-position: center;
+  --popout-image: var(--background-image);
+  --popout-image-blur: 5px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: url('https://cdn.discordapp.com/attachments/1238562510697791501/1244873977344823346/image.png?ex=6656b2bc&is=6655613c&hm=b8a5e34feb6913246d5e50f09bae2229dcce40d06629fdec826bfbf97eae0295&');
+  --overlay-image-blur: 0px;
+  --overlay-image-size: auto;
+  --overlay-image-position: center;
+  --home-button-image: url('https://t4.ftcdn.net/jpg/02/10/73/39/360_F_210733963_stIjhFeI7D6odexhOrdhvOW4GODS842r.jpg');
+  --home-button-size: 150%;
+  --home-button-position: center;
+  --serverlist-brightness: 0.84;
+  --left-brightness: 0.74;
+  --middle-brightness: 0.7;
+  --right-brightness: 0.7;
+  --overlay-brightness: 0.78;
+  --gradient-primary: 103,58,183;
+  --gradient-secondary: 63,81,181;
+  --link-colour: #00b0f4;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: gg sans;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --update-notice-1: none;
+}
